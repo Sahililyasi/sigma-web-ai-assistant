@@ -38,8 +38,16 @@ if question:
 
     # show assistant answer
     with st.chat_message("assistant"):
-        st.markdown(answer)
+        st.markdown(answer["answer"])
+
+        for source in answer["sources"]:
+            st.info(
+                f"📹 Video {source['number']} | "
+                f"{source['title']} | "
+                f"{source['start']:.2f}s - {source['end']:.2f}s"
+            )
+
 
     st.session_state.messages.append(
-        {"role": "assistant", "content": answer}
+        {"role": "assistant", "content": answer["answer"]}
     )

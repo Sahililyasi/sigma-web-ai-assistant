@@ -108,8 +108,10 @@ Answer naturally and concisely.
         f.write(response)
     # for index,item in new_df.iterrows():
     #     print (index, item["title"],item["number"],item["text"],item["start"],item["end"])
-    return response
-
+    return {
+    "answer": response,
+    "sources": new_df[["number", "title", "start", "end"]].to_dict("records")
+}
 
 
 if __name__ == "__main__":
