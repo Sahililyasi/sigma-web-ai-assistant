@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+prompt.txt
+response.txt
+output.json
+
+old_jsons/
+
+rag_all_audios/
+rag_sample-videos/
+
+.vscode/
+.idea/

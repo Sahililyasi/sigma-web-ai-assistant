@@ -1,0 +1,677 @@
+{
+    "chunks": [
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 0.0,
+            "end": 37.6,
+            "text": " From today's video, we will start the Sigma Web Development course.  Like this video with high energy, because in this video, I am going to make you a profitable web developer from zero.  This course will be very modern because web development has changed over time.  A lot of new things have come, a lot of things have come in JavaScript that make work very easy.  A lot of such technologies have come that will make your work very easy.  This course will be for those people who know nothing.  You know zero if this course is for you about web development.  We will start from zero, but in the future we will raise the bar like anything.  What will we learn in this course, I will tell you in a while.  Web development is a very profitable thing."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 37.6,
+            "end": 76.3,
+            "text": " I have personally earned a lot of money through web development.  And my belief is that you can also be very successful by learning web development.  During the course, you will be given notes, cheat sheets, references, all these things.  This course is going to be a little different because I will tell you all the technologies that you should learn according to your experience in this course.  And I will make this course a complete course with all the web development technologies.  The course content will be complete web development, front-end, back-end, database.  I will teach you as much as you should learn.  I will tell you what exactly the course content will be in a while.  But you guys have faith that I will make you a full-stack developer.  A lot of projects will be done for you in the course."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 76.3,
+            "end": 107.7,
+            "text": " And at the end of the course, we will make some good projects.  So that your grip on web development can become very strong.  According to me, project-based learning is the best way to learn.  That's why I will make a lot of projects for you.  And if you agree, then write in the comment section below.  I agree.  Because when you comment, I get a smile on my face.  So do comment.  I want to assure you that after finishing this course, you will be able to make any kind of website from start to end.  And during this course, I will make a lot of websites for you so that your confidence will go up a lot."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 107.7,
+            "end": 140.1,
+            "text": " So let's start with the first video of our Sigma Web Development course.  Let's roll the intro.  Alright guys, so I have come to my computer screen.  And now follow me as I am doing.  I have downloaded the Google Chrome browser.  You also download the Google Chrome browser.  I am not saying that it will not work.  But you guys have to do exactly the same as a beginner.  What I am doing here.  So here we will follow exactly as I am doing."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 140.1,
+            "end": 165.5,
+            "text": " And as the videos come, you will be able to follow exactly.  I will go to Google quickly.  And I will write here.  Download VS Code  Now what is this VS Code?  VS Code is a source code editor.  If I am in Windows, then I will click on Windows.  If you are in Mac, Linux or any other operating system.  Then you can download it for that strange operating system.  And the process will be exactly the same."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 165.5,
+            "end": 185.5,
+            "text": " You can see that in my Downloads folder.  VS Code has come here.  And here you can see this setup.  Because it has been downloaded.  I will refresh here.  And here you can see the setup of VS Code.  I can double click here and install it.  So simply install VS Code.  It is as easy as installing a game.  You read the agreement here quickly."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 185.5,
+            "end": 207.3,
+            "text": " This license applies to...  ...  ...Damages.  And after this I will accept the agreement.  You also read it like me.  And I am the fastest reader in the world.  I am the fastest reader in the world.  Next.  It is important to check both icons here.  It is very important to check both icons."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 207.3,
+            "end": 231.7,
+            "text": " If you want a desktop shortcut.  That is, if you want to get a shortcut in the desktop.  Click on the Create a Desktop icon.  And after this, we will install it.  If your PC is fast like me, it will be this fast.  But if your PC is slow.  Then there is no problem.  It will be a little slow.  Nothing more than this will happen.  Now here I will recommend you to subscribe to the channel."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 231.7,
+            "end": 249.5,
+            "text": " Because these videos.  I want you to follow exactly.  As soon as I put the video, you get a notification.  So if you want to follow this course completely.  Ideally you should subscribe.  With that said, our VS Code has been downloaded.  I have opened my VS Code.  Don't be afraid to see this.  Beginners, don't be afraid to see this.  And I am saying this again."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 249.5,
+            "end": 266.5,
+            "text": " If you already know things.  We are taking a beginner-friendly start here.  In the initial videos.  But we will raise the bar like anything in the upcoming videos.  So stay tuned.  Hi.  Okay, I will request you guys.  Tell me in the comment section.  What is your level?  Are you a beginner, advanced or intermediate user?"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 266.5,
+            "end": 281.1,
+            "text": " Tell me in the comment section.  How much do you know about web development?  Beginner, advanced, intermediate.  Please, you guys do comment.  Now what is VS Code here?  Why did we download it?  Let's understand this.  So if you are a beginner.  You don't know what VS Code is.  Let me tell you that VS Code is a code editor."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 281.1,
+            "end": 297.90000000000003,
+            "text": " Because it helps you to edit code.  Now you will say,  Harry, I can edit code in notepad.  So yes, do it in notepad.  It will also be done.  Yes, I am not saying sarcastically.  It will be done in that too.  Let's set it up here.  And show what is there in it.  Which makes it a little different from notepad."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 297.90000000000003,
+            "end": 313.9,
+            "text": " Look here, let's set it up quickly.  I will not browse here with color themes.  In fact, I do it.  I keep dark modern here.  My theme.  And I did all this.  Next section.  After this, next section.  You can also close this welcome if you want.  But again, here are some tips."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 313.9,
+            "end": 325.9,
+            "text": " Telling you.  That's it.  This is your VS Code here.  It has started.  This is the screen of VS Code.  You can see.  You can make a new file here.  You can make a new folder.  But I will recommend you.  That you close it."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 325.9,
+            "end": 340.9,
+            "text": " Yes, you close it.  Why did you close it?  I am going to make a new folder here.  And I am going to keep it in its name.  You guessed it right.  Sigma Web Development.  Course.  And we will do everything in this course.  We will do everything.  We will do everything."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 340.9,
+            "end": 358.9,
+            "text": " Means understand.  We will do related to the course.  We will not do much.  Now here you will press shift and right click.  If you are in windows.  So you can see here.  That an option called open with code is coming.  This option called open with code.  Helps you open this particular folder in VS Code.  Now you will select it here."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 358.9,
+            "end": 370.9,
+            "text": " Now what will you do here?  You will say yes.  I trust this file.  Click here and do yes.  I trust the authors.  And this folder has now opened.  That is, if I click on plus here.  I have to make a new file.  Suppose I have written here.  Index.html"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 370.9,
+            "end": 385.9,
+            "text": " Write now.  Even if you do not know what I am writing.  Write.  Hit enter.  And after that.  What will I do?  That I will write here.  Hey I am your first html file.  Suppose I wrote this.  Here you can see this dot."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 385.9,
+            "end": 400.9,
+            "text": " This dot is white in color.  This dot means this.  That you have not saved this file.  Please save it.  If you hit ctrl s, it will be saved.  I will recommend you.  That you go to the file.  Enable the auto save option here.  As you type it.  Similarly, you will not see this dot."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 400.9,
+            "end": 415.9,
+            "text": " Your file will be saved instantly.  As you type it.  And I also recommend this thing.  We will not use ctrl s.  Otherwise, if you want to save with ctrl s.  Then you can disable this option.  One more thing I would like to do with you.  Click on gear here.  Then click on settings.  And search here."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 415.9,
+            "end": 426.9,
+            "text": " Mouse.  Mouse.  Mouse.  Now see here.  Editor.  Mouse wheel zoom.  Check this.  What will happen by checking this?  Close this in settings.  Now you don't have to be afraid at all."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 426.9,
+            "end": 436.9,
+            "text": " What is VS code?  Why is VS code?  How is VS code?  What is this?  Why is this?  What is this news?  Yes, but you don't have to see all this now.  Now you will simply press ctrl.  If you scroll like this.  So what happens?"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 436.9,
+            "end": 446.9,
+            "text": " That your font size.  It changes.  Now I will show you a magic.  What is magic?  It is a very simple logic.  That here in downloads.  In the folder named sigma web development course.  What happened?  That this file was made.  Index dot html."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 446.9,
+            "end": 458.9,
+            "text": " Which is very natural.  That you can see.  That this is a file.  That is a file.  That is a file.  That is a file.  That is very natural.  Because I have opened this folder in VS code.  So because I have opened this folder in VS code.  This file is also made here."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 458.9,
+            "end": 469.9,
+            "text": " Okay.  I will make another file here.  Suppose I make a file named this dot txt.  And I write in it.  This is this.  So what will happen?  This file will be made here too.  You can see.  So this folder and this VS code.  Both are running in sync."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 469.9,
+            "end": 479.9,
+            "text": " Okay.  Now if I open this file from here.  From the notepad.  And I show you.  My file will open in the notepad.  So I can do that too.  That is also my choice.  But I will not use notepad.  Because there are some things in VS code.  Which is notepad."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 479.9,
+            "end": 489.9,
+            "text": " I will not use it.  Because there are some things in VS code.  Which is not given to me by notepad.  And I want that.  I get those features.  I do not want to overwhelm you.  But I show you.  What is there in VS code.  Which is not given to you by notepad.  If I write here."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 489.9,
+            "end": 499.9,
+            "text": " Suppose html.  If I hit enter.  Then automatically.  It gave me the opening and closing tag.  If I hit the exclamation mark here.  Then it gives me a boilerplate template.  Of html.  If I click on it.  Then see the basic code of html.  It came here."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 499.9,
+            "end": 510.9,
+            "text": " We will discuss about it later.  Now you guys.  Do not get overwhelmed at all.  Okay.  So this is the basic code.  And I will show you.  VS code.  And this feel comes.  We get such a good feel.  Developer's feel."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 510.9,
+            "end": 520.9,
+            "text": " Hacker's feel.  That feel is also important.  That's why.  Confidence will come.  To do coding.  Now for mac and linux users.  I want to comment here.  Things are going to be exactly similar.  For you guys too.  I am using windows."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 520.9,
+            "end": 530.9,
+            "text": " Because I have windows laptop.  I cannot use three laptops.  I have to use two.  I have to use one.  I do not have.  I do not have.  I do not have.  I do not have.  I do not have.  I do not have."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 530.9,
+            "end": 544.9,
+            "text": " I do not have.  I do not have.  I do not have.  I do not have.  I cannot use all three laptops.  I cannot use linux, mac and windows together.  Things will stay exactly the same for you.  In fact, I need to say.  Things will be similar.  Not exactly same."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 544.9,
+            "end": 556.9,
+            "text": " Things will be very similar.  Okay, so you guys can follow and learn.  Very easily.  So don't worry at all.  I will tell you about some extensions.  In a while.  And you will enjoy.  By using those extensions.  And you will also say man.  It was good."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 556.9,
+            "end": 587.9,
+            "text": " What did I recommend.  But in a while I will tell.  And this is criminally underrated.  I am telling you that you will enjoy it.  Before that, I would like to tell you that if you right click here,  click on the command palette, then here are a lot of options for VS Code.  You don't need to know all these options.  As we move forward in the course, the features that will be used,  I will keep telling you in this way and you can use it.  But what I will do here now is I will toggle a screencast mode."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 587.9,
+            "end": 614.1,
+            "text": " You don't have to do this, but I will do it.  You will know what will happen by doing this.  I clicked, so now see I will type anything.  If I press caps lock, then caps lock will be clicked here.  So you will know which button I pressed when.  Now this thing is not at all relevant for you,  but I just want to tell you that the screencast mode,  we can change its settings from here.  Now here you see the screencast mode has a vertical offset.  What does vertical offset mean?"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 614.1,
+            "end": 639.6,
+            "text": " If I make vertical offset 0, then it comes up.  If I make vertical offset 70, then it comes down.  I will make it 60.  If I give space, then it comes here.  If I make it 80, then it comes here.  That is, from bottom, how much will it look up,  so I made it 0, in fact, I made it 1.  Now I will type anything here,  suppose I did this, it will show you at the bottom, which is ideal.  So what I will do is close this file,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 639.6,
+            "end": 663.1,
+            "text": " close the settings tab.  These are tabs, basically, like tabs in Chrome,  these are exactly the same tabs.  So I hope you know what it is.  You will forget what we have written about it,  I will tell you step by step what exactly is what.  You can also close the welcome page of VS Code.  By any chance, if you want to zoom in on VS Code,  which I will do because I am recording a video,  now add the control plus numpad plus."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 663.1,
+            "end": 690.6,
+            "text": " Look below, I have shown you that I am zooming in.  I am zooming in because I am recording videos.  So ideally I would like you to see the screen from a distance.  I am doing my coding, so I don't zoom in so much.  You have to keep this in mind.  So these are related to VS Code.  Now I want to tell you how websites work.  A website basically works through three types of people.  Imagine three people, one is client brother,  one is server brother, who is client brother,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 690.6,
+            "end": 714.6,
+            "text": " who is the other one, server brother,  who is the third one, browser brother,  who is also called Babu brother with love.  Browser brother, so browser brother,  client brother, server brother,  what is this client, what is this server, what is this browser.  I am the client, you, all of us,  who use a browser, who is the browser,  this is chrome, hello chrome, I am the client.  I will say this to the client, when I write codewithharry.com,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 714.6,
+            "end": 740.6,
+            "text": " let's say I write codewithharry.com,  so what do I basically say,  I say to this browser,  please give me the codewithharry.com website.  Or if I write youtube.com here,  I say give me the youtube.com website.  I say, browser, give me youtube.com,  I want to watch youtube.  What does the browser say, do you want youtube?  Take this, okay."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 740.6,
+            "end": 764.6,
+            "text": " So here I will enter youtube.com,  so it brought youtube.com from the server.  Are you understanding?  It brought youtube.com from the server,  it brought youtube.com,  it parsed it and showed me this screen.  This work happened so fast,  because my internet.com, internet speed is very fast.  It is so low, people's speed is also fast,  but still, according to my locality,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 764.6,
+            "end": 786.6,
+            "text": " it is very fast, okay.  So with this fast internet speed,  all these things are happening very fast, okay.  So the client sends a request to the server through the browser.  Browser is the client's, that is, my assistant.  Whatever I say from the browser, he will do that.  It will help me to bring this web page from the server.  Who is managing the server?  The server is being managed by youtube.  Youtube.com's server is being managed."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 786.6,
+            "end": 808.6,
+            "text": " And there is some code written inside that server,  which sends me this kind of code.  That is, when I write youtube.com, this code came.  Now how to convert this code into this,  this work is of the browser.  That is, how to show me, this work is of the browser.  So the client says something like this to the browser,  hey, give me youtube.com.  Browser says, son, do you want youtube.com?  Wait, I'll ask for youtube.com from youtube.com."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 808.6,
+            "end": 828.6,
+            "text": " Then the browser goes to the server,  that is, it makes a request to the server.  It says to the server, give me youtube.com.  The server will either give it to him,  or say it is not there, or it will say error,  or it will say that the server has been errored,  it has not been found. Whatever the response will be,  ideally, which should be 200,  there is a response code, 200.  With that response,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 828.6,
+            "end": 848.6,
+            "text": " our browser comes back to the client  and shows this kind of page.  I hope this is clear to you.  Client, browser, server.  So the client is with the browser,  the browser is with the server, and the browser is back with the client.  So this is how this thing works.  This thing is a little more important, let me tell you once again.  When you write google.com, any website, google.com,  then the client says to the browser,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 848.6,
+            "end": 868.6,
+            "text": " bring me google.com.  The browser says, hey, gurudev, you want google.com,  wait, I'll bring it from the server.  So the browser goes to the server,  and brings google.com, and gives it to you.  You get google.com.  Now, along with google.com,  the server sends all the images,  all the videos, all the things,  like these icons, all this."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 868.6,
+            "end": 888.6,
+            "text": " The URL of these icons is also written in this code.  And that too, the job of the browser is  to display it properly.  So the server sends a whole bundle  to the browser, this kind of bundle.  And passing this bundle and showing it like this  is the job of the browser.  Now, whatever further interaction the user will do,  the browser will make additional requests  with this page. If I right-click and inspect,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 888.6,
+            "end": 908.6,
+            "text": " and then I go to the network,  and here I write, let's say,  Harry bhai. Let's say I wrote Harry bhai.  So, look, he sent so many requests for images,  and many more requests.  So, as you interact,  more requests will have to be sent  to the browser. So, in total,  consider it like a restaurant.  You gave an order, that is, you sent a request."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 908.6,
+            "end": 928.6,
+            "text": " As soon as you gave the order,  a waiter took your order.  The waiter then went inside the kitchen.  He sent your order to the kitchen. Consider the kitchen as a server.  And after that, finally, when the kitchen  gave the order back,  what did this waiter do?  The waiter who is working as a browser  gave you the order back.  It is possible that the order"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 928.6,
+            "end": 948.6,
+            "text": " cannot be made in the kitchen for some reason.  It is very rare that you order something  and you do not get it. But it happens sometimes.  Similarly, it happens here too. You get to see  an error like 404 error or 500 error.  The server is not working.  Such errors are shown whenever  such errors are seen.  But ideally, 200  means an okay response."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 948.6,
+            "end": 968.6,
+            "text": " And you get such a webpage.  You can consider it like a restaurant.  Whenever you write google.com slash mail,  it will show you if google.com slash mail is available.  And if you write codewithari.com  slash contact, it will show you  if codewithari.com slash contact is available.  If it is not available, it will show you 404 or 500 error.  It will show you a page with 500.  Whatever server sends, it will show you."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 968.6,
+            "end": 988.6,
+            "text": " This cycle continues.  The client sent a request. The browser  then sent the server. The server  processed the request.  The server then sent the data back to the browser.  And whatever data was sent,  the browser showed it to the client.  Then the client did something. The browser sent the same request to the server.  Then the server sent something.  Whatever data the server sent,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 988.6,
+            "end": 1008.6,
+            "text": " it came back to the client through the browser.  And so on. Now you will say,  all this is fine. But what is the back end?  What does back end mean?  The back end is how the server is processing the request.  Now, let's say you have  a blog. There is a lot of data  in the blog.  What will you do? Will you store  every webpage separately or"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1008.6,
+            "end": 1028.6,
+            "text": " will you generate the content dynamically?  You will generate the content dynamically.  I'll take an example of Google.  If I search for Harry bhai,  you can see that the header of Google,  these links,  this format doesn't change at all.  If I write here, let's say  Shubham. Let's say I wrote Shubham here.  As soon as I write Shubham here,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1028.6,
+            "end": 1048.6,
+            "text": " now see, when I wrote Harry bhai,  the content of the blog was very similar to that of Google.  So what does Google do?  The backend of the Google server  processes the data in a way  that it can send  this kind of HTML for the corresponding query.  That is, when I write Shubham,  it sends this. When I write Harry bhai,  it sends this."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1048.6,
+            "end": 1068.6,
+            "text": " So the process of generating this thing  is happening through the system.  That is the backend. Now this backend  can be Django. This backend can be Flask.  This backend can be Node.js.  This backend can be PHP.  This backend can be Ruby on Rails.  And the database inside the backend  is used. That is, the backend code  is not visible to the client. This is the frontend code"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1068.6,
+            "end": 1088.6,
+            "text": " which the server sends. And how the server  made this code, we don't know.  Because this code is running on the server.  If you are getting confused, then don't get confused at all.  You will understand all these things.  We will see the backend later. Now we understand  how the frontend works.  Now the frontend  is primarily made up of three languages.  HTML, CSS,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1088.6,
+            "end": 1108.6,
+            "text": " and JavaScript. These three  languages are needed  if you are making a website.  Every website needs HTML, CSS, and JavaScript  in most of the cases.  If you only use HTML,  then it becomes a very basic skeleton  of the website. After that,  when you use CSS, you can style it.  Like the way this button looks,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1108.6,
+            "end": 1128.6,
+            "text": " it is only visible because of CSS.  Along with that, the way this button  looks red or the way this button looks  is all because of CSS.  The edges you see here  are all because of CSS.  So CSS is used to style  a page. What color  will this button be? What will happen by hovering?  All these things are done through CSS."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1128.6,
+            "end": 1148.6,
+            "text": " In a way, CSS is the beauty  of HTML page.  HTML is the identity of any page.  Let's say this is a standard  which is agreed upon. If anyone makes a website,  then it will be made on HTML.  So that the browser makers can understand  and parse it. The job of the browser  is to parse the HTML.  And HTML is a skeleton."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1148.6,
+            "end": 1168.6,
+            "text": " It is a standard.  Anyone who makes a website in this world  will make it on HTML. Skeleton HTML will be used.  This is a standard. Such a standard is made  so that everyone  makes the same type of pages. And if someone  is making a browser, then the same language  has to be parsed. If as a beginner, you  have learned 80% HTML, then you are good to go  for web development. Now,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1168.6,
+            "end": 1188.6,
+            "text": " some things happen directly from HTML.  If I write a very quick HTML code  for you, then I am writing  HTML code in this way.  I have used the emmet abbreviation  by hitting the exclamation mark. You guys  don't worry at all about how I have written this code.  I will write, Hey, this is HTML.  And I can open this HTML file  directly in this way."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1188.6,
+            "end": 1208.6,
+            "text": " And as soon as I open this HTML file  directly here, you see  it will open here in this way.  I can open it directly by double-clicking  here in this way. And it opened.  So, Hey, this is HTML is written here. But it is not  styled at all. This means that  this HTML file is very basic.  Now, you can run videos directly from HTML.  I have an HTML file which I"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1208.6,
+            "end": 1228.6,
+            "text": " show you, with which you can run videos.  I do one thing, I show you  this HTML file by changing it.  Such that we can show videos in it.  So, there is a video tag in HTML.  If you hit enter, then whatever video you put  in SRC will be played.  Like if I put video 1.mp4 here,  you see, VS Code has automatically shown me  video 1.mp4. This is the benefit"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1228.6,
+            "end": 1248.6,
+            "text": " of using VS Code. So, you see  here, I will reload it.  So, here this video is automatically  shown. I can play it. To play it,  I have to write controls here.  And I will refresh it now. So, I will get  the controls to play. I can play it.  Dude, this plane has come to sell.  The guy needs a lot.  He needs money."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1248.6,
+            "end": 1268.6,
+            "text": " He is asking  130 crores. Final.  Now, if I put  video 2.mp4 here,  I put video 1 here.  I have two more videos outside. I have some more videos  here. If I put it here  and then I refer them.  If I put video 2.mp4  instead of it, then video 2 will be seen."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1268.6,
+            "end": 1288.6,
+            "text": " I will reload it and show you.  Why did you put the car?  I put Ben Stokes car.  I worked hard and showed it to people.  What did you do?  These were Ben Stokes lookalikes.  Now, if I put video 3 here,  then my third video will be played.  So, I will reload it.  And you can see that I can play it."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1288.6,
+            "end": 1308.6,
+            "text": " Sir, give me something to eat.  So, our third video is played.  I put video 3.mp4 here.  So, I will close it now.  And in the same way, we can also play video 4.  And video 4 is a DJ video.  I have a DJ video in which DJ is played.  So, you see this.  Chaaab  Ola."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1308.6,
+            "end": 1328.6,
+            "text": " Peeche Reko.  Peeche Reko.  Tum chavi ko baap aari.  So, you can make such things  only by using HTML.  You don't have to do anything else.  You can play videos only with HTML.  You can display images.  All this can be done only with HTML.  Now, if you want to style it."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1328.6,
+            "end": 1348.6,
+            "text": " For example, I want a border to come on it.  Or this should come in the background of red color.  So, what do I have to do for that?  For that, I have to use CSS.  CSS adds beauty to any website.  Then comes JavaScript.  Which adds interaction to you.  In a website.  For example, what will happen when I click on search?  What will happen when I write code with Harry?"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1348.6,
+            "end": 1368.6,
+            "text": " Like code with HR  And here auto complete came.  Why did it come?  Because a request came here on the server.  And for this query,  the results of auto complete came here.  So, all these things happen with JavaScript.  We call this  Client side scripting.  If we want to do scripting here in the client."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1368.6,
+            "end": 1388.6,
+            "text": " If we want to do coding.  Only on the client side.  We can do it with the help of JavaScript.  This is also a brain.  So, our website is made.  Beauty with brain.  Beauty with brain.  And brain came from JavaScript.  Now, JavaScript helps you  to make the page dynamic easily."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1388.6,
+            "end": 1408.6,
+            "text": " For example, if you want to change the content  without loading the page.  All this work is done with JavaScript.  I will kill these mosquitoes.  They are not getting anything.  My racket is working.  Oh my god.  Like the video.  Because I eat snacks for you.  When I was in college,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1408.6,
+            "end": 1428.6,
+            "text": " someone told me that  I have to learn HTML, CSS, JavaScript.  Learn 100% HTML, learn 100% CSS.  But this is wrong.  Why?  Because HTML is only 80%.  And CSS is only 40-60%.  And JavaScript is only 50-70%.  You can start web development.  You can make projects."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1428.6,
+            "end": 1448.6,
+            "text": " And while making,  you can move forward.  In this course,  I will tell you about the impact  of chat gpt and web development.  We will also talk about this.  So, never run after perfection.  Don't think that I will do HTML for one year.  Then I will do CSS for the next year.  Then I will do JavaScript in the third year."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1448.6,
+            "end": 1468.6,
+            "text": " Then I will make projects in the fourth year.  Don't think like this.  Do HTML 80%, CSS 40-60%.  And learn JavaScript 50-70%.  And you can make a great website.  And as you make a website,  your experience will teach you  more HTML, CSS, JavaScript.  And you will not even know  that you have perfected"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1468.6,
+            "end": 1488.6,
+            "text": " HTML, CSS, JavaScript.  While you are making money  and working as a professional web developer.  So, you are earning along with learning.  And along with that,  you are also improving your skills.  So, never think that  I will make a website only when I remember all HTML tags.  I will make a website only when I remember all CSS properties.  I will make a website only when I remember all JavaScript."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1488.6,
+            "end": 1508.6,
+            "text": " I will teach you only that much.  That matters.  We are going to learn what matters.  And I don't want you to learn only for years.  That's why I designed this course in this way.  So that you learn only what matters.  And you will learn the rest from practice.  And I am going to make you do a lot of practice in this course.  Here are a few mosquitoes  to see the progress."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1508.6,
+            "end": 1528.6,
+            "text": " Our audience is increasing.  In this course, we will learn HTML, CSS, JavaScript.  And I will teach you  tricks that you have not heard anywhere.  And I have learned  those tricks in different points of my career.  I will tell you in a course right here.  I have learned some amazing tricks  in my career very late.  And I want you to learn all the tricks"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1528.6,
+            "end": 1548.6,
+            "text": " before starting.  If you have any doubt in this course  in the coming videos,  you can use the hashtag to ask your doubt.  I am going to try to answer all the doubts.  I will try.  I will try to solve your doubts.  If you have any technical question,  you can use the hashtag doubt.  And please don't use the hashtag doubt"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1548.6,
+            "end": 1568.6,
+            "text": " in useless questions or comments.  You can write them without hashtag doubt.  So that I can prioritize  the reply of the hashtag doubt comments.  I will try to answer all the doubts  as much as I can.  And you will learn everything in this course.  So please like this course  if you haven't done it yet.  That will bring a smile on my face."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1568.6,
+            "end": 1588.6,
+            "text": " Now what is React, Next.js,  Angular.  These are the front-end frameworks  that help you to use JavaScript properly.  HTML, CSS, JavaScript  make a website.  They help to make this process fast.  How? We will learn it in this course.  Yes, we will learn it in this course.  I told you that I will make this course"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1588.6,
+            "end": 1608.6,
+            "text": " completely different.  I will take you from zero to hero  in web development.  You can buy your own chair.  Because you have bought the ticket  of Sigma web development express.  I want to give you a very good analogy  to teach HTML, CSS and JavaScript.  HTML is just like car skeleton.  After this, I painted CSS."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1608.6,
+            "end": 1628.6,
+            "text": " And internal engine car is JavaScript.  As an example of a human,  the skeleton is HTML.  After this, skin and everything  is CSS.  The nervous system is JavaScript.  Now I will take you to  Forbes.com.  As soon as you go to Forbes,  a website has opened."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1628.6,
+            "end": 1648.6,
+            "text": " Forbes.com is a website  that uses HTML, CSS and JavaScript.  Just like any other website.  If I click on right click  on inspect,  then this inspect element has opened.  Now you see here,  they have used script in head.  And to add CSS,  they have used link."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1648.6,
+            "end": 1668.6,
+            "text": " So what I will do here,  I will remove their CSS.  To remove CSS,  I will simply clear all their style tags  using delete key.  As soon as I remove all these style tags  and all these link tags,  as soon as I delete all their style sheets,  see what happened to this page.  This page looks like this."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1668.6,
+            "end": 1688.6,
+            "text": " It has only raw HTML.  What should be the size of the images?  What kind of images should be there?  It has forgotten all this.  Only raw HTML is written here.  So this is the condition of Forbes.com  without CSS.  Without CSS,  it is showing only raw buttons,  raw text, raw links."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1688.6,
+            "end": 1708.6,
+            "text": " And similarly,  by removing the script tag,  I can see how this website will look  without JavaScript.  Now if I delete the HTML tag of this page,  I have deleted the head,  I have deleted all this,  it is not even present without HTML.  So this is the role of HTML, CSS and JavaScript  in making a web page."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1708.6,
+            "end": 1728.6,
+            "text": " For your information,  this course was initially made to be paid,  but I changed my mood and converted it  into a free course.  I thought I would put it on YouTube.  I want you all to be serious.  Many people have reached out to me  to launch this course.  But I felt that this course should be kept free.  Because when I was learning web development,"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1728.6,
+            "end": 1748.6,
+            "text": " I can understand that when you do not have  the affordability to buy a paid course,  then I can understand.  And I decided that this is a Sigma web development course.  It should be launched absolutely free of cost.  This course is free,  but under this free scheme,  as you will earn crores of rupees in the coming time,  you will give me tea, coffee, parties  and all the gift feeds."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1748.6,
+            "end": 1768.6,
+            "text": " This is our agreement in this video.  So when you start earning crores,  then just send me a green card.  Or maybe a red card.  But you have to do this only when you start earning well.  So just keeping you aside,  in the next video, I will tell you  how you can earn money  to complete this course.  I will put light on this."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1768.6,
+            "end": 1788.6,
+            "text": " Because this is also important.  How to earn money, how to get a job.  How I do freelancing,  how clients come.  I will tell you everything A to Z in this course.  I want to tell you some action items.  The first action item is that you can access the playlist of this course.  I will give you the link in the description.  Everyone bookmark that playlist.  And press the star button to open the playlist."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1788.6,
+            "end": 1808.6,
+            "text": " And then press the star button to bookmark.  And there is a button to save.  Many of you said that the course is paid.  We will buy it then too.  Thank you so much for all the support.  Whatever you show me love and trust,  it increases my courage.  But this course is going to be free.  Now there should not be any technical issues.  I am putting all these videos in a resolution"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1808.6,
+            "end": 1828.6,
+            "text": " above 1080p.  So you should see it very clearly.  But many people say that the video is in SD.  But it is in 240p, 144p.  You watch Bali ka Vadhu.  You finish the internet of your mobile.  And then you say to me that  your videos are not HD.  Call a municipality.  So I hope you understood in this video"
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1828.6,
+            "end": 1848.6,
+            "text": " what is request?  How do these websites work?  We got a basic idea.  How does client-server interaction work?  In the coming videos,  we will see how the website is made.  We are going to make our first website in the next video.  So you should be very excited.  Because in the next video,  our first website is going to be made."
+        },
+        {
+            "number": "1",
+            "title": "Installing VS Code & How Websites Work",
+            "start": 1848.6,
+            "end": 1880.6,
+            "text": " And it is possible that it will be the first website  of many of you.  So access the playlist.  Thank you so much for watching this video.  And I will see you next time.  Thank you for watching it.  Thank you for subscribing to the channel.  Thank you for watching it.  Thank you for subscribing to the channel."
+        }
+    ],
+    "text": " From today's video, we will start the Sigma Web Development course. Like this video with high energy, because in this video, I am going to make you a profitable web developer from zero. This course will be very modern because web development has changed over time. A lot of new things have come, a lot of things have come in JavaScript that make work very easy. A lot of such technologies have come that will make your work very easy. This course will be for those people who know nothing. You know zero if this course is for you about web development. We will start from zero, but in the future we will raise the bar like anything. What will we learn in this course, I will tell you in a while. Web development is a very profitable thing. I have personally earned a lot of money through web development. And my belief is that you can also be very successful by learning web development. During the course, you will be given notes, cheat sheets, references, all these things. This course is going to be a little different because I will tell you all the technologies that you should learn according to your experience in this course. And I will make this course a complete course with all the web development technologies. The course content will be complete web development, front-end, back-end, database. I will teach you as much as you should learn. I will tell you what exactly the course content will be in a while. But you guys have faith that I will make you a full-stack developer. A lot of projects will be done for you in the course. And at the end of the course, we will make some good projects. So that your grip on web development can become very strong. According to me, project-based learning is the best way to learn. That's why I will make a lot of projects for you. And if you agree, then write in the comment section below. I agree. Because when you comment, I get a smile on my face. So do comment. I want to assure you that after finishing this course, you will be able to make any kind of website from start to end. And during this course, I will make a lot of websites for you so that your confidence will go up a lot. So let's start with the first video of our Sigma Web Development course. Let's roll the intro. Alright guys, so I have come to my computer screen. And now follow me as I am doing. I have downloaded the Google Chrome browser. You also download the Google Chrome browser. I am not saying that it will not work. But you guys have to do exactly the same as a beginner. What I am doing here. So here we will follow exactly as I am doing. And as the videos come, you will be able to follow exactly. I will go to Google quickly. And I will write here. Download VS Code Now what is this VS Code? VS Code is a source code editor. If I am in Windows, then I will click on Windows. If you are in Mac, Linux or any other operating system. Then you can download it for that strange operating system. And the process will be exactly the same. You can see that in my Downloads folder. VS Code has come here. And here you can see this setup. Because it has been downloaded. I will refresh here. And here you can see the setup of VS Code. I can double click here and install it. So simply install VS Code. It is as easy as installing a game. You read the agreement here quickly. This license applies to... ... ...Damages. And after this I will accept the agreement. You also read it like me. And I am the fastest reader in the world. I am the fastest reader in the world. Next. It is important to check both icons here. It is very important to check both icons. If you want a desktop shortcut. That is, if you want to get a shortcut in the desktop. Click on the Create a Desktop icon. And after this, we will install it. If your PC is fast like me, it will be this fast. But if your PC is slow. Then there is no problem. It will be a little slow. Nothing more than this will happen. Now here I will recommend you to subscribe to the channel. Because these videos. I want you to follow exactly. As soon as I put the video, you get a notification. So if you want to follow this course completely. Ideally you should subscribe. With that said, our VS Code has been downloaded. I have opened my VS Code. Don't be afraid to see this. Beginners, don't be afraid to see this. And I am saying this again. If you already know things. We are taking a beginner-friendly start here. In the initial videos. But we will raise the bar like anything in the upcoming videos. So stay tuned. Hi. Okay, I will request you guys. Tell me in the comment section. What is your level? Are you a beginner, advanced or intermediate user? Tell me in the comment section. How much do you know about web development? Beginner, advanced, intermediate. Please, you guys do comment. Now what is VS Code here? Why did we download it? Let's understand this. So if you are a beginner. You don't know what VS Code is. Let me tell you that VS Code is a code editor. Because it helps you to edit code. Now you will say, Harry, I can edit code in notepad. So yes, do it in notepad. It will also be done. Yes, I am not saying sarcastically. It will be done in that too. Let's set it up here. And show what is there in it. Which makes it a little different from notepad. Look here, let's set it up quickly. I will not browse here with color themes. In fact, I do it. I keep dark modern here. My theme. And I did all this. Next section. After this, next section. You can also close this welcome if you want. But again, here are some tips. Telling you. That's it. This is your VS Code here. It has started. This is the screen of VS Code. You can see. You can make a new file here. You can make a new folder. But I will recommend you. That you close it. Yes, you close it. Why did you close it? I am going to make a new folder here. And I am going to keep it in its name. You guessed it right. Sigma Web Development. Course. And we will do everything in this course. We will do everything. We will do everything. Means understand. We will do related to the course. We will not do much. Now here you will press shift and right click. If you are in windows. So you can see here. That an option called open with code is coming. This option called open with code. Helps you open this particular folder in VS Code. Now you will select it here. Now what will you do here? You will say yes. I trust this file. Click here and do yes. I trust the authors. And this folder has now opened. That is, if I click on plus here. I have to make a new file. Suppose I have written here. Index.html Write now. Even if you do not know what I am writing. Write. Hit enter. And after that. What will I do? That I will write here. Hey I am your first html file. Suppose I wrote this. Here you can see this dot. This dot is white in color. This dot means this. That you have not saved this file. Please save it. If you hit ctrl s, it will be saved. I will recommend you. That you go to the file. Enable the auto save option here. As you type it. Similarly, you will not see this dot. Your file will be saved instantly. As you type it. And I also recommend this thing. We will not use ctrl s. Otherwise, if you want to save with ctrl s. Then you can disable this option. One more thing I would like to do with you. Click on gear here. Then click on settings. And search here. Mouse. Mouse. Mouse. Now see here. Editor. Mouse wheel zoom. Check this. What will happen by checking this? Close this in settings. Now you don't have to be afraid at all. What is VS code? Why is VS code? How is VS code? What is this? Why is this? What is this news? Yes, but you don't have to see all this now. Now you will simply press ctrl. If you scroll like this. So what happens? That your font size. It changes. Now I will show you a magic. What is magic? It is a very simple logic. That here in downloads. In the folder named sigma web development course. What happened? That this file was made. Index dot html. Which is very natural. That you can see. That this is a file. That is a file. That is a file. That is a file. That is very natural. Because I have opened this folder in VS code. So because I have opened this folder in VS code. This file is also made here. Okay. I will make another file here. Suppose I make a file named this dot txt. And I write in it. This is this. So what will happen? This file will be made here too. You can see. So this folder and this VS code. Both are running in sync. Okay. Now if I open this file from here. From the notepad. And I show you. My file will open in the notepad. So I can do that too. That is also my choice. But I will not use notepad. Because there are some things in VS code. Which is notepad. I will not use it. Because there are some things in VS code. Which is not given to me by notepad. And I want that. I get those features. I do not want to overwhelm you. But I show you. What is there in VS code. Which is not given to you by notepad. If I write here. Suppose html. If I hit enter. Then automatically. It gave me the opening and closing tag. If I hit the exclamation mark here. Then it gives me a boilerplate template. Of html. If I click on it. Then see the basic code of html. It came here. We will discuss about it later. Now you guys. Do not get overwhelmed at all. Okay. So this is the basic code. And I will show you. VS code. And this feel comes. We get such a good feel. Developer's feel. Hacker's feel. That feel is also important. That's why. Confidence will come. To do coding. Now for mac and linux users. I want to comment here. Things are going to be exactly similar. For you guys too. I am using windows. Because I have windows laptop. I cannot use three laptops. I have to use two. I have to use one. I do not have. I do not have. I do not have. I do not have. I do not have. I do not have. I do not have. I do not have. I do not have. I do not have. I cannot use all three laptops. I cannot use linux, mac and windows together. Things will stay exactly the same for you. In fact, I need to say. Things will be similar. Not exactly same. Things will be very similar. Okay, so you guys can follow and learn. Very easily. So don't worry at all. I will tell you about some extensions. In a while. And you will enjoy. By using those extensions. And you will also say man. It was good. What did I recommend. But in a while I will tell. And this is criminally underrated. I am telling you that you will enjoy it. Before that, I would like to tell you that if you right click here, click on the command palette, then here are a lot of options for VS Code. You don't need to know all these options. As we move forward in the course, the features that will be used, I will keep telling you in this way and you can use it. But what I will do here now is I will toggle a screencast mode. You don't have to do this, but I will do it. You will know what will happen by doing this. I clicked, so now see I will type anything. If I press caps lock, then caps lock will be clicked here. So you will know which button I pressed when. Now this thing is not at all relevant for you, but I just want to tell you that the screencast mode, we can change its settings from here. Now here you see the screencast mode has a vertical offset. What does vertical offset mean? If I make vertical offset 0, then it comes up. If I make vertical offset 70, then it comes down. I will make it 60. If I give space, then it comes here. If I make it 80, then it comes here. That is, from bottom, how much will it look up, so I made it 0, in fact, I made it 1. Now I will type anything here, suppose I did this, it will show you at the bottom, which is ideal. So what I will do is close this file, close the settings tab. These are tabs, basically, like tabs in Chrome, these are exactly the same tabs. So I hope you know what it is. You will forget what we have written about it, I will tell you step by step what exactly is what. You can also close the welcome page of VS Code. By any chance, if you want to zoom in on VS Code, which I will do because I am recording a video, now add the control plus numpad plus. Look below, I have shown you that I am zooming in. I am zooming in because I am recording videos. So ideally I would like you to see the screen from a distance. I am doing my coding, so I don't zoom in so much. You have to keep this in mind. So these are related to VS Code. Now I want to tell you how websites work. A website basically works through three types of people. Imagine three people, one is client brother, one is server brother, who is client brother, who is the other one, server brother, who is the third one, browser brother, who is also called Babu brother with love. Browser brother, so browser brother, client brother, server brother, what is this client, what is this server, what is this browser. I am the client, you, all of us, who use a browser, who is the browser, this is chrome, hello chrome, I am the client. I will say this to the client, when I write codewithharry.com, let's say I write codewithharry.com, so what do I basically say, I say to this browser, please give me the codewithharry.com website. Or if I write youtube.com here, I say give me the youtube.com website. I say, browser, give me youtube.com, I want to watch youtube. What does the browser say, do you want youtube? Take this, okay. So here I will enter youtube.com, so it brought youtube.com from the server. Are you understanding? It brought youtube.com from the server, it brought youtube.com, it parsed it and showed me this screen. This work happened so fast, because my internet.com, internet speed is very fast. It is so low, people's speed is also fast, but still, according to my locality, it is very fast, okay. So with this fast internet speed, all these things are happening very fast, okay. So the client sends a request to the server through the browser. Browser is the client's, that is, my assistant. Whatever I say from the browser, he will do that. It will help me to bring this web page from the server. Who is managing the server? The server is being managed by youtube. Youtube.com's server is being managed. And there is some code written inside that server, which sends me this kind of code. That is, when I write youtube.com, this code came. Now how to convert this code into this, this work is of the browser. That is, how to show me, this work is of the browser. So the client says something like this to the browser, hey, give me youtube.com. Browser says, son, do you want youtube.com? Wait, I'll ask for youtube.com from youtube.com. Then the browser goes to the server, that is, it makes a request to the server. It says to the server, give me youtube.com. The server will either give it to him, or say it is not there, or it will say error, or it will say that the server has been errored, it has not been found. Whatever the response will be, ideally, which should be 200, there is a response code, 200. With that response, our browser comes back to the client and shows this kind of page. I hope this is clear to you. Client, browser, server. So the client is with the browser, the browser is with the server, and the browser is back with the client. So this is how this thing works. This thing is a little more important, let me tell you once again. When you write google.com, any website, google.com, then the client says to the browser, bring me google.com. The browser says, hey, gurudev, you want google.com, wait, I'll bring it from the server. So the browser goes to the server, and brings google.com, and gives it to you. You get google.com. Now, along with google.com, the server sends all the images, all the videos, all the things, like these icons, all this. The URL of these icons is also written in this code. And that too, the job of the browser is to display it properly. So the server sends a whole bundle to the browser, this kind of bundle. And passing this bundle and showing it like this is the job of the browser. Now, whatever further interaction the user will do, the browser will make additional requests with this page. If I right-click and inspect, and then I go to the network, and here I write, let's say, Harry bhai. Let's say I wrote Harry bhai. So, look, he sent so many requests for images, and many more requests. So, as you interact, more requests will have to be sent to the browser. So, in total, consider it like a restaurant. You gave an order, that is, you sent a request. As soon as you gave the order, a waiter took your order. The waiter then went inside the kitchen. He sent your order to the kitchen. Consider the kitchen as a server. And after that, finally, when the kitchen gave the order back, what did this waiter do? The waiter who is working as a browser gave you the order back. It is possible that the order cannot be made in the kitchen for some reason. It is very rare that you order something and you do not get it. But it happens sometimes. Similarly, it happens here too. You get to see an error like 404 error or 500 error. The server is not working. Such errors are shown whenever such errors are seen. But ideally, 200 means an okay response. And you get such a webpage. You can consider it like a restaurant. Whenever you write google.com slash mail, it will show you if google.com slash mail is available. And if you write codewithari.com slash contact, it will show you if codewithari.com slash contact is available. If it is not available, it will show you 404 or 500 error. It will show you a page with 500. Whatever server sends, it will show you. This cycle continues. The client sent a request. The browser then sent the server. The server processed the request. The server then sent the data back to the browser. And whatever data was sent, the browser showed it to the client. Then the client did something. The browser sent the same request to the server. Then the server sent something. Whatever data the server sent, it came back to the client through the browser. And so on. Now you will say, all this is fine. But what is the back end? What does back end mean? The back end is how the server is processing the request. Now, let's say you have a blog. There is a lot of data in the blog. What will you do? Will you store every webpage separately or will you generate the content dynamically? You will generate the content dynamically. I'll take an example of Google. If I search for Harry bhai, you can see that the header of Google, these links, this format doesn't change at all. If I write here, let's say Shubham. Let's say I wrote Shubham here. As soon as I write Shubham here, now see, when I wrote Harry bhai, the content of the blog was very similar to that of Google. So what does Google do? The backend of the Google server processes the data in a way that it can send this kind of HTML for the corresponding query. That is, when I write Shubham, it sends this. When I write Harry bhai, it sends this. So the process of generating this thing is happening through the system. That is the backend. Now this backend can be Django. This backend can be Flask. This backend can be Node.js. This backend can be PHP. This backend can be Ruby on Rails. And the database inside the backend is used. That is, the backend code is not visible to the client. This is the frontend code which the server sends. And how the server made this code, we don't know. Because this code is running on the server. If you are getting confused, then don't get confused at all. You will understand all these things. We will see the backend later. Now we understand how the frontend works. Now the frontend is primarily made up of three languages. HTML, CSS, and JavaScript. These three languages are needed if you are making a website. Every website needs HTML, CSS, and JavaScript in most of the cases. If you only use HTML, then it becomes a very basic skeleton of the website. After that, when you use CSS, you can style it. Like the way this button looks, it is only visible because of CSS. Along with that, the way this button looks red or the way this button looks is all because of CSS. The edges you see here are all because of CSS. So CSS is used to style a page. What color will this button be? What will happen by hovering? All these things are done through CSS. In a way, CSS is the beauty of HTML page. HTML is the identity of any page. Let's say this is a standard which is agreed upon. If anyone makes a website, then it will be made on HTML. So that the browser makers can understand and parse it. The job of the browser is to parse the HTML. And HTML is a skeleton. It is a standard. Anyone who makes a website in this world will make it on HTML. Skeleton HTML will be used. This is a standard. Such a standard is made so that everyone makes the same type of pages. And if someone is making a browser, then the same language has to be parsed. If as a beginner, you have learned 80% HTML, then you are good to go for web development. Now, some things happen directly from HTML. If I write a very quick HTML code for you, then I am writing HTML code in this way. I have used the emmet abbreviation by hitting the exclamation mark. You guys don't worry at all about how I have written this code. I will write, Hey, this is HTML. And I can open this HTML file directly in this way. And as soon as I open this HTML file directly here, you see it will open here in this way. I can open it directly by double-clicking here in this way. And it opened. So, Hey, this is HTML is written here. But it is not styled at all. This means that this HTML file is very basic. Now, you can run videos directly from HTML. I have an HTML file which I show you, with which you can run videos. I do one thing, I show you this HTML file by changing it. Such that we can show videos in it. So, there is a video tag in HTML. If you hit enter, then whatever video you put in SRC will be played. Like if I put video 1.mp4 here, you see, VS Code has automatically shown me video 1.mp4. This is the benefit of using VS Code. So, you see here, I will reload it. So, here this video is automatically shown. I can play it. To play it, I have to write controls here. And I will refresh it now. So, I will get the controls to play. I can play it. Dude, this plane has come to sell. The guy needs a lot. He needs money. He is asking 130 crores. Final. Now, if I put video 2.mp4 here, I put video 1 here. I have two more videos outside. I have some more videos here. If I put it here and then I refer them. If I put video 2.mp4 instead of it, then video 2 will be seen. I will reload it and show you. Why did you put the car? I put Ben Stokes car. I worked hard and showed it to people. What did you do? These were Ben Stokes lookalikes. Now, if I put video 3 here, then my third video will be played. So, I will reload it. And you can see that I can play it. Sir, give me something to eat. So, our third video is played. I put video 3.mp4 here. So, I will close it now. And in the same way, we can also play video 4. And video 4 is a DJ video. I have a DJ video in which DJ is played. So, you see this. Chaaab Ola. Peeche Reko. Peeche Reko. Tum chavi ko baap aari. So, you can make such things only by using HTML. You don't have to do anything else. You can play videos only with HTML. You can display images. All this can be done only with HTML. Now, if you want to style it. For example, I want a border to come on it. Or this should come in the background of red color. So, what do I have to do for that? For that, I have to use CSS. CSS adds beauty to any website. Then comes JavaScript. Which adds interaction to you. In a website. For example, what will happen when I click on search? What will happen when I write code with Harry? Like code with HR And here auto complete came. Why did it come? Because a request came here on the server. And for this query, the results of auto complete came here. So, all these things happen with JavaScript. We call this Client side scripting. If we want to do scripting here in the client. If we want to do coding. Only on the client side. We can do it with the help of JavaScript. This is also a brain. So, our website is made. Beauty with brain. Beauty with brain. And brain came from JavaScript. Now, JavaScript helps you to make the page dynamic easily. For example, if you want to change the content without loading the page. All this work is done with JavaScript. I will kill these mosquitoes. They are not getting anything. My racket is working. Oh my god. Like the video. Because I eat snacks for you. When I was in college, someone told me that I have to learn HTML, CSS, JavaScript. Learn 100% HTML, learn 100% CSS. But this is wrong. Why? Because HTML is only 80%. And CSS is only 40-60%. And JavaScript is only 50-70%. You can start web development. You can make projects. And while making, you can move forward. In this course, I will tell you about the impact of chat gpt and web development. We will also talk about this. So, never run after perfection. Don't think that I will do HTML for one year. Then I will do CSS for the next year. Then I will do JavaScript in the third year. Then I will make projects in the fourth year. Don't think like this. Do HTML 80%, CSS 40-60%. And learn JavaScript 50-70%. And you can make a great website. And as you make a website, your experience will teach you more HTML, CSS, JavaScript. And you will not even know that you have perfected HTML, CSS, JavaScript. While you are making money and working as a professional web developer. So, you are earning along with learning. And along with that, you are also improving your skills. So, never think that I will make a website only when I remember all HTML tags. I will make a website only when I remember all CSS properties. I will make a website only when I remember all JavaScript. I will teach you only that much. That matters. We are going to learn what matters. And I don't want you to learn only for years. That's why I designed this course in this way. So that you learn only what matters. And you will learn the rest from practice. And I am going to make you do a lot of practice in this course. Here are a few mosquitoes to see the progress. Our audience is increasing. In this course, we will learn HTML, CSS, JavaScript. And I will teach you tricks that you have not heard anywhere. And I have learned those tricks in different points of my career. I will tell you in a course right here. I have learned some amazing tricks in my career very late. And I want you to learn all the tricks before starting. If you have any doubt in this course in the coming videos, you can use the hashtag to ask your doubt. I am going to try to answer all the doubts. I will try. I will try to solve your doubts. If you have any technical question, you can use the hashtag doubt. And please don't use the hashtag doubt in useless questions or comments. You can write them without hashtag doubt. So that I can prioritize the reply of the hashtag doubt comments. I will try to answer all the doubts as much as I can. And you will learn everything in this course. So please like this course if you haven't done it yet. That will bring a smile on my face. Now what is React, Next.js, Angular. These are the front-end frameworks that help you to use JavaScript properly. HTML, CSS, JavaScript make a website. They help to make this process fast. How? We will learn it in this course. Yes, we will learn it in this course. I told you that I will make this course completely different. I will take you from zero to hero in web development. You can buy your own chair. Because you have bought the ticket of Sigma web development express. I want to give you a very good analogy to teach HTML, CSS and JavaScript. HTML is just like car skeleton. After this, I painted CSS. And internal engine car is JavaScript. As an example of a human, the skeleton is HTML. After this, skin and everything is CSS. The nervous system is JavaScript. Now I will take you to Forbes.com. As soon as you go to Forbes, a website has opened. Forbes.com is a website that uses HTML, CSS and JavaScript. Just like any other website. If I click on right click on inspect, then this inspect element has opened. Now you see here, they have used script in head. And to add CSS, they have used link. So what I will do here, I will remove their CSS. To remove CSS, I will simply clear all their style tags using delete key. As soon as I remove all these style tags and all these link tags, as soon as I delete all their style sheets, see what happened to this page. This page looks like this. It has only raw HTML. What should be the size of the images? What kind of images should be there? It has forgotten all this. Only raw HTML is written here. So this is the condition of Forbes.com without CSS. Without CSS, it is showing only raw buttons, raw text, raw links. And similarly, by removing the script tag, I can see how this website will look without JavaScript. Now if I delete the HTML tag of this page, I have deleted the head, I have deleted all this, it is not even present without HTML. So this is the role of HTML, CSS and JavaScript in making a web page. For your information, this course was initially made to be paid, but I changed my mood and converted it into a free course. I thought I would put it on YouTube. I want you all to be serious. Many people have reached out to me to launch this course. But I felt that this course should be kept free. Because when I was learning web development, I can understand that when you do not have the affordability to buy a paid course, then I can understand. And I decided that this is a Sigma web development course. It should be launched absolutely free of cost. This course is free, but under this free scheme, as you will earn crores of rupees in the coming time, you will give me tea, coffee, parties and all the gift feeds. This is our agreement in this video. So when you start earning crores, then just send me a green card. Or maybe a red card. But you have to do this only when you start earning well. So just keeping you aside, in the next video, I will tell you how you can earn money to complete this course. I will put light on this. Because this is also important. How to earn money, how to get a job. How I do freelancing, how clients come. I will tell you everything A to Z in this course. I want to tell you some action items. The first action item is that you can access the playlist of this course. I will give you the link in the description. Everyone bookmark that playlist. And press the star button to open the playlist. And then press the star button to bookmark. And there is a button to save. Many of you said that the course is paid. We will buy it then too. Thank you so much for all the support. Whatever you show me love and trust, it increases my courage. But this course is going to be free. Now there should not be any technical issues. I am putting all these videos in a resolution above 1080p. So you should see it very clearly. But many people say that the video is in SD. But it is in 240p, 144p. You watch Bali ka Vadhu. You finish the internet of your mobile. And then you say to me that your videos are not HD. Call a municipality. So I hope you understood in this video what is request? How do these websites work? We got a basic idea. How does client-server interaction work? In the coming videos, we will see how the website is made. We are going to make our first website in the next video. So you should be very excited. Because in the next video, our first website is going to be made. And it is possible that it will be the first website of many of you. So access the playlist. Thank you so much for watching this video. And I will see you next time. Thank you for watching it. Thank you for subscribing to the channel. Thank you for watching it. Thank you for subscribing to the channel."
+}
