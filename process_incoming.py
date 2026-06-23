@@ -55,7 +55,7 @@ def ask_question(incoming_query):
     similarities = cosine_similarity(np.vstack(df['embedding']),[question_embedding]).flatten()
 
     #print(similarities)
-    top_results=3
+    top_results=5
     max_indices=similarities.argsort()[::-1][0:top_results]
 
     #print(max_indices)
@@ -72,7 +72,8 @@ def ask_question(incoming_query):
     # #     print(row['text'])
     # #     print("-" * 80)
 
-    prompt = f'''You are a retrieval-based course assistant for the Sigma Web Development Course.
+    prompt = f"""
+You are a retrieval-based course assistant for the Sigma Web Development Course.
 
 Your knowledge is LIMITED ONLY to the retrieved chunks provided below.
 
@@ -86,32 +87,34 @@ User Question:
 
 Instructions:
 
-You MUST follow these rules exactly.
+1. Use ONLY information present in the retrieved chunks.
+2. Never use outside knowledge.
+3. Never invent video numbers, video titles, timestamps, topics, explanations, examples, or recommendations.
+4. If the retrieved chunks explain the requested topic, answer using those explanations.
+5. If multiple retrieved chunks contain useful information, combine the relevant information into a single answer.
+6. Prefer chunks that DEFINE or EXPLAIN a concept over chunks that only mention it.
+7. Do not rely on a chunk only because it has the highest similarity score.
+8. Evaluate all retrieved chunks before answering.
+9. If the topic is only mentioned but not explained in the retrieved chunks, return exactly:
 
-1. Use ONLY information explicitly present in the retrieved chunks.
-2. Treat the retrieved chunks as the complete course knowledge.
-3. Do NOT use any outside knowledge, even if you know the answer.
-4. Do NOT explain, expand, infer, summarize, or add details that are not explicitly stated in the retrieved chunks.
-5. Do NOT use general knowledge examples.
-6. Do NOT mention concepts, tools, websites, technologies, or examples unless they appear in the retrieved chunks.
-7. If the retrieved chunks explain the topic, answer only from those chunks.
-8. If the retrieved chunks only mention the topic but do not explain it, say:
-   "The topic is only mentioned in the retrieved content."
-9. If the answer is not supported by the retrieved chunks, return exactly:
-   "I could not find this information in the course."
-10. Never invent:
-    - Video numbers
-    - Video titles
-    - Timestamps
-    - Definitions
-    - Explanations
-    - Examples
-    - Recommendations
-11. Never output FOUND, NOT_FOUND, YES, or NO.
-12. Your answer must be fully supported by the retrieved chunks.
+The topic is only mentioned in the retrieved content.
 
-Answer naturally and concisely.
-    '''
+10. If the answer cannot be supported by the retrieved chunks, return exactly:
+
+I could not find this information in the course.
+
+11. Never output:
+- FOUND
+- NOT_FOUND
+- YES
+- NO
+
+12. Do not mention chunk numbers, chunk rankings, similarity scores, or retrieval details in your answer.
+
+13. Answer naturally, clearly, and concisely.
+
+Answer:
+"""
 
     with open("prompt.txt","w")as f:
         f.write(prompt)
@@ -125,7 +128,7 @@ Answer naturally and concisely.
     # for index,item in new_df.iterrows():
     #     print (index, item["title"],item["number"],item["text"],item["start"],item["end"])
 
-    
+
     return {
     "answer": response,
     "sources": new_df[
