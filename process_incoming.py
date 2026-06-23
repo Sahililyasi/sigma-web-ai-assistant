@@ -61,6 +61,16 @@ def ask_question(incoming_query):
     #print(max_indices)
     new_df=df.loc[max_indices]
     #print(new_df[["title","number","text"]])
+    new_df = new_df.copy()
+    new_df["similarity"] = similarities[max_indices]
+
+
+    # print("\n===== RETRIEVED CHUNKS =====\n")
+    # # for index, row in new_df.iterrows(): TERMINAL MEIN DEKHNE KE LIYE CHUNKS AND ALL
+    # #     print(f"\nVIDEO: {row['title']}")
+    # #     print(f"TIME: {row['start']} - {row['end']}")
+    # #     print(row['text'])
+    # #     print("-" * 80)
 
     prompt = f'''You are a retrieval-based course assistant for the Sigma Web Development Course.
 
@@ -76,25 +86,31 @@ User Question:
 
 Instructions:
 
-1. Answer ONLY using information present in the retrieved chunks.
-2. Never use outside knowledge.
-3. Never invent video numbers, video titles, timestamps, topics, explanations, or recommendations.
-4. If the retrieved chunks explain or discuss the requested topic, answer using only those chunks.
-5. If the retrieved chunks only mention the topic but do not explain it, clearly say that the topic is only mentioned in the retrieved content.
-6. If the answer cannot be supported by the retrieved chunks, return exactly:
+You MUST follow these rules exactly.
 
-I could not find this information in the course.
-
-7. Never output reasoning labels such as:
-   FOUND
-   NOT_FOUND
-   YES
-   NO
-
-8. Do not provide guesses, assumptions, or alternative recommendations.
+1. Use ONLY information explicitly present in the retrieved chunks.
+2. Treat the retrieved chunks as the complete course knowledge.
+3. Do NOT use any outside knowledge, even if you know the answer.
+4. Do NOT explain, expand, infer, summarize, or add details that are not explicitly stated in the retrieved chunks.
+5. Do NOT use general knowledge examples.
+6. Do NOT mention concepts, tools, websites, technologies, or examples unless they appear in the retrieved chunks.
+7. If the retrieved chunks explain the topic, answer only from those chunks.
+8. If the retrieved chunks only mention the topic but do not explain it, say:
+   "The topic is only mentioned in the retrieved content."
+9. If the answer is not supported by the retrieved chunks, return exactly:
+   "I could not find this information in the course."
+10. Never invent:
+    - Video numbers
+    - Video titles
+    - Timestamps
+    - Definitions
+    - Explanations
+    - Examples
+    - Recommendations
+11. Never output FOUND, NOT_FOUND, YES, or NO.
+12. Your answer must be fully supported by the retrieved chunks.
 
 Answer naturally and concisely.
-
     '''
 
     with open("prompt.txt","w")as f:
@@ -108,12 +124,14 @@ Answer naturally and concisely.
         f.write(response)
     # for index,item in new_df.iterrows():
     #     print (index, item["title"],item["number"],item["text"],item["start"],item["end"])
+
+    
     return {
     "answer": response,
-    "sources": new_df[["number", "title", "start", "end"]].to_dict("records")
+    "sources": new_df[
+        ["number", "title", "start", "end", "similarity", "text"]
+    ].to_dict("records")
 }
-
-
 if __name__ == "__main__":
     question = input("Ask a Question: ")
     answer = ask_question(question)

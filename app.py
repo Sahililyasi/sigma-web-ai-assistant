@@ -41,10 +41,15 @@ if question:
         st.markdown(answer["answer"])
 
         for source in answer["sources"]:
+
+            preview = source["text"][:200]
+
             st.info(
                 f"📹 Video {source['number']} | "
                 f"{source['title']} | "
-                f"{source['start']:.2f}s - {source['end']:.2f}s"
+                f"{source['start']:.2f}s - {source['end']:.2f}s\n\n"
+                f"Preview:\n{preview}...\n\n"
+                f"Similarity: {source['similarity']:.4f}"
             )
 
 
